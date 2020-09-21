@@ -1,0 +1,21 @@
+.pokemon-info-container{
+  display: flex;
+  justify-content: flex-start;
+  max-width: 400px;
+  width:100%;
+  margin:auto;
+  box-shadow: 6px 2px 10px -5px rgba(0,0,0,0.75);
+  padding: 20px 10px;
+  margin-top:20px;
+}
+
+
+.pokemon-info-container img {
+  border: 1px solid #999;
+  border-radius: 50%;
+}
+
+.pokemon-info-container ul {
+  list-style-type: none;
+  text-align: left;
+}
